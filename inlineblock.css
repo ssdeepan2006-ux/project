@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1, .box2, .box3 {
+    display: inline-block;
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    margin: 8px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+}
+.box1 {
+    background-color: #4CAF50;
+}
+.box2 {
+    background-color: #2196F3;
+}
+.box3 {
+    background-color: #f44336;
+}

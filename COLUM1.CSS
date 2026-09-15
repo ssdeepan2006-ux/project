@@ -1,0 +1,30 @@
+*{box-sizing: border-box;}
+
+.container {
+  display:flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: green;
+  color: white;
+}
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+ 
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-6 {width: 50%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-12 {width: 100%;}

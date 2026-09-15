@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 20px;
+            background-color: lightyellow;
+        }
+       
+       h1{
+    text-align: center;
+    font-style: italic;
+}
+.container{
+    display: flex;
+    gap:30px;
+    justify-content: left;
+    
+
+
+}
+.box{
+    flex: 1;
+    padding: 40px;
+    text-align: left;
+    color:white;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+.box1{
+    background-color:lightblue;
+
+
+}
+.box2{
+    background-color: lightgreen;
+}
+.box3{
+    background-color: lightcoral;
+}
+.box4{
+    background-color: lightseagreen;
+}                               
+.box5{
+    background-color: lightslategray;
+}
+@media screen  and (max-width:600px) {
+    body{
+        background-color:green;
+
+    }
+    .container{
+        flex-direction: column;
+    }
+    .box{
+        font-size: 18;
+    }
+
+    
+}
+@media screen and (min-width:600px) and (max-width:1024px) {
+    body{
+        background-color:blue;
+
+    }
+    .box{
+        font-size: 22px;
+    }
+    
+}
+@media screen and (min-width:1025px){
+    body{
+        background-color:red;
+
+    }
+    .box{
+        font-size: 24px;
+    }
+}
+    </style>
+</head>
+<body>
+    <h1>Responsive Layout Using Media queries</h1>
+    <div class="container">
+        <div class=" box box1">Deepan</div>
+        <div class=" box box2">vijay</div>
+        <div class=" box box3">ajith</div>
+        <div class="box box4"> mani</div>
+        <div class="box box5">surya</div>
+
+
+    </div>
+    
+</body>
+</html>
